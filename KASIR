@@ -315,7 +315,82 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                 total4 = total4 + porsi4*5000
                 print (total4)
                 jenis4 = ("Es Milo")
-
+            else:
+                salah = int(input("""
+      MENU TIDAK TERSEDIA!
+SILAKAN MASUKKAN PESANAN ANDA : """))
+                if salah==101:
+                    porsi1 = int(input("Jumlah: "))
+                    total1 = total1 + porsi1*10000
+                    print (total1)
+                    jenis1 = ("Nasi Goreng")
+                elif salah==102:
+                    porsi1 = int(input("Jumlah: "))
+                    total1 = total1 + porsi1*6000
+                    print (total1)
+                    jenis1 = ("Mi Goreng")
+                elif salah == 103:
+                    porsi1 = int(input("Jumlah: "))
+                    total1 = total1 + porsi1*7000
+                    print (total1)
+                    jenis1 = ("Mi Rebus")
+                elif salah == 104:
+                    porsi1 = int(input("Jumlah: "))
+                    total1 = total1 + porsi1*2000
+                    print (total1)
+                    jenis1 = ("Es teh")
+                elif salah == 105:
+                    porsi1 = int(input("Jumlah: "))
+                    total1 = total1 + porsi1*3000
+                    print (total1)
+                    jenis1 = ("Es jeruk")
+                elif salah == 106:
+                    porsi1 = int(input("Jumlah: "))
+                    total1 = total1 + porsi1*5000
+                    print (total1)
+                    jenis1 = ("Es Milo")
+            print("""
+        Apakah ada tambahan makanan?
+        Ya (a)
+        Tidak (b)
+                  """)
+            jawaban = input(" ")
+            if jawaban == ("a"):
+                print("Masukkan Menu Pilihan ke-5!")
+                nomor = int(input("Menu yang Dipesan: "))
+                menu = pilihan(nomor)
+                print (menu)
+                if nomor==101:
+                    porsi5= int(input("Jumlah: "))
+                    total5 = total5 + porsi5*10000
+                    print (total5)
+                    jenis5 = ("Nasi Goreng")
+                elif nomor==102:
+                    porsi5 = int(input("Jumlah: "))
+                    total5 = total5 + porsi5*6000
+                    print (total5)
+                    jenis5 = ("Mi Goreng")
+                elif nomor == 103:
+                    porsi5= int(input("Jumlah: "))
+                    total5 = total5 + porsi5*7000
+                    print (total5)
+                    jenis5 = ("Mi Rebus")
+                elif nomor == 104:
+                    porsi5 = int(input("Jumlah: "))
+                    total5 = total5 + porsi5*2000
+                    print (total5)
+                    jenis5 = ("Es teh")
+                elif nomor == 105:
+                    porsi5 = int(input("Jumlah: "))
+                    total5 = total5 + porsi5*3000
+                    print (total5)
+                    jenis5 = ("Es jeruk")
+                elif nomor==106 :
+                    porsi5= int(input("Jumlah: "))
+                    total5 = total5 + porsi5*5000
+                    print (total5)
+                    jenis5 = ("Es Milo")
+                    
                    elif nomor==102:
                         porsi6 = int(input("Jumlah: "))
                         total6 = total6 + porsi6*6000
