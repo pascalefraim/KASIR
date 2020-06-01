@@ -323,7 +323,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         print("Kembalian : Rp ",akhir)
                         print("===================================")
                         
-                    elif nomor == 104:
+                   elif nomor == 104:
                         porsi6 = int(input("Jumlah: "))
                         total6 = total6 + porsi6*2000
                         print (total6)
