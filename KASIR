@@ -323,6 +323,30 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         print("Kembalian : Rp ",akhir)
                         print("===================================")
                         
+                    elif nomor == 104:
+                        porsi6 = int(input("Jumlah: "))
+                        total6 = total6 + porsi6*2000
+                        print (total6)
+                        jenis6 = ("Es teh")
+                        total = total1 + total2 + total3 + total4 + total5+ total6
+                        print ("Total Harga: ",total)
+                        uang = int(input("\nUang Tunai: Rp "))
+                        print("\n===================================")
+                        print("===============N O T A=============")
+                        print("===================================")
+                        print("Nama      : ", nama)
+                        print("Pembelian : ", porsi1, jenis1)
+                        print("          : ", porsi2, jenis2)
+                        print("          : ", porsi3, jenis3)
+                        print("          : ", porsi4, jenis4)
+                        print("          : ", porsi5, jenis5)
+                        print("          : ", porsi6, jenis6)
+                        print("Total     : Rp ", total)
+                        print("Uang      : Rp ", uang)
+                        akhir = int(uang-total)
+                        print("Kembalian : Rp ",akhir)
+                        print("===================================")   
+                        
 else :
                     print("ERROR! Silakan ulangi")
             elif jawaban == "b" :
@@ -360,31 +384,7 @@ else :
                 akhir = int(uang-total)
                 print("Kembalian : Rp ",akhir)
                 print("===================================")   
-                
-            elif nomor == 104:
-                porsi6 = int(input("Jumlah: "))
-                total6 = total6 + porsi6*2000
-                print (total6)
-                jenis6 = ("Es teh")
-                total = total1 + total2 + total3 + total4 + total5+ total6
-                print ("Total Harga: ",total)
-                uang = int(input("\nUang Tunai: Rp "))
-                print("\n===================================")
-                print("===============N O T A=============")
-                print("===================================")
-                print("Nama      : ", nama)
-                print("Pembelian : ", porsi1, jenis1)
-                print("          : ", porsi2, jenis2)
-                print("          : ", porsi3, jenis3)
-                print("          : ", porsi4, jenis4)
-                print("          : ", porsi5, jenis5)
-                print("          : ", porsi6, jenis6)
-                print("Total     : Rp ", total)
-                print("Uang      : Rp ", uang)
-                akhir = int(uang-total)
-                print("Kembalian : Rp ",akhir)
-                print("===================================")
-    
+  
     
     
     
