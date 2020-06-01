@@ -610,7 +610,24 @@ else :
         akhir = int(uang-total)
         print("Kembalian : Rp ",akhir)
         print("===================================")
-    
+    else :
+        print ("ERROR! Silakan ulangi")
+elif jawaban == "b" :
+    total = total1
+    print ("Total Harga: ",total)
+    uang = int(input("\nUang Tunai: Rp "))
+    print("\n=====================================")
+    print("===============N O T A===============")
+    print("=====================================")
+    print("Nama      : ", nama)
+    print("Pembelian : ", porsi1, jenis1)
+    print("Total     : Rp ", total)
+    print("Uang      : Rp ", uang)
+    akhir = int(uang-total)
+    print("Kembalian : Rp ",akhir)
+    print("===================================")   
+else :
+    print ("ERROR! Silakan ulangi")
     
     
     
