@@ -1,2 +1,251 @@
 
 
+
+
+
+
+
+total = 0
+total1 = 0
+porsi1 = 0
+jenis1 = " " 
+total2 = 0
+porsi2 = 0
+jenis2 = " "
+total3 = 0
+porsi3 = 0
+jenis3 = " "
+total4 = 0
+porsi4 = 0
+jenis4 = " "
+total5 = 0
+porsi5 = 0
+jenis5 = " "
+total6 = 0
+porsi6 = 0
+jenis6 = " "
+
+print ("=============PROGRAM KASIR RESTORAN=============")
+nama = input("Nama Konsumen : ")
+print("Nama Konsumen: ", nama)
+menu = [
+       ["101", "Nasi Goreng ", "10000"],
+       ["102", "Mi Goreng   ", "6000"],
+       ["103", "Mi Rebus    ", "7000"],
+       ["104", "Es Teh      ", "2000"],
+       ["105", "Es Jeruk    ", "3000'],
+       ["106", "Es Milo     ", "5000"],
+       ]
+print("Daftar Menu : ")
+print("Kode\t Menu\t\t Harga")
+for i in range (0,len(menu)):
+    print(menu[i][0], '\t', menu [i][1], menu [i][2])
+    i += 1
+ 
+def pilihan (i) :
+    switcher = {
+            101 : 'Nasi Goreng 10000',
+            102 : 'Mi Goreng 6000',
+            103 : 'Mi Rebus 7000',
+            104 : 'Es Teh 2000',
+            105 : 'Es Jeruk 3000',
+            106 : 'Es Milo 5000',
+            }
+    return switcher.get(i, "Menu yang Dipesan")
+    
+nomor = int(input("Menu yang Dipesan: "))
+menu = pilihan (nomor)
+print(menu)
+
+if nomor==101:
+    porsi1 = int(input("Jumlah: "))
+    total1 = total1 + porsi1*10000
+    print(total)
+    jenis1 = ("Nasi Goreng")
+elif nomor==102:
+    porsi1 = int(input("Jumlah: "))
+    total1 = total1 + porsi1*6000
+    print(total)
+    jenis1 = ("Mi Goreng")
+elif nomor== 103 :
+    porsi1 = int(input("Jumlah: "))
+    total1 = total1 + porsi1*7000
+    print(total)
+    jenis1 = ("Mi Rebus")
+elif nomor == 104 :
+    porsi1 = int(input("Jumlah: "))
+    total1 = total1 + porsi1*2000
+    print(total)
+    jenis1 = ("Es Teh")
+elif nomor == 105 :
+    porsi1 = int(input("Jumlah: "))
+    total1 = total1 + porsi1*3000
+    print(total)
+    jenis1 = ("Es Jeruk")
+elif nomor == 106:
+    porsi1 = int(input("Jumlah: "))
+    total1 = total1 + porsi1*5000
+    print(total)
+    jenis1 = ("Es Milo")
+
+                   elif nomor==102:
+                        porsi6 = int(input("Jumlah: "))
+                        total6 = total6 + porsi6*6000
+                        print (total6)
+                        jenis6= ("Mi Goreng")
+                        total = total1 + total2 + total3 + total4 + total5+ total6
+                        print ("Total Harga: ",total)
+                        uang = int(input("\nUang Tunai: Rp "))
+                        print("\n===================================")
+                        print("===============N O T A=============")
+                        print("===================================")
+                        print("Nama      : ", nama)
+                        print("Pembelian : ", porsi1, jenis1)
+                        print("          : ", porsi2, jenis2)
+                        print("          : ", porsi3, jenis3)
+                        print("          : ", porsi4, jenis4)
+                        print("          : ", porsi5, jenis5)
+                        print("          : ", porsi6, jenis6)
+                        print("Total     : Rp ", total)
+                        print("Uang      : Rp ", uang)
+                        akhir = int(uang-total)
+                        print("Kembalian : Rp ",akhir)
+                        print("===================================")
+                        
+else :
+                    print("ERROR! Silakan ulangi")
+            elif jawaban == "b" :
+                total = total1 + total2 + total3 + total4
+                print ("Total Harga: ",total)
+                uang = int(input("\nUang Tunai: Rp "))
+                print("\n===================================")
+                print("===============N O T A=============")
+                print("===================================")
+                print("Nama      : ", nama)
+                print("Pembelian : ", porsi1, jenis1)
+                print("          : ", porsi2, jenis2)
+                print("          : ", porsi3, jenis3)
+                print("          : ", porsi4, jenis4)
+                print("Total     : Rp ", total)
+                print("Uang      : Rp ", uang)
+                akhir = int(uang-total)
+                print("Kembalian : Rp ",akhir)
+                print("===================================")
+                  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+            
+           
+ 
+
+
+
+
+
