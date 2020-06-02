@@ -555,7 +555,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         print("Kembalian : Rp ",akhir)
                         print("===================================")
                         
-                    elif nomor==106 :
+                    else :
                         porsi6= int(input("Jumlah: "))
                         total6 = total6 + porsi6*5000
                         print (total6)
@@ -578,7 +578,26 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         akhir = int(uang-total)
                         print("Kembalian : Rp ",akhir)
                         print("===================================")
-else :
+
+                elif jawaban == "b": 
+                    total = total1 + total2 + total3 + total4 + total5
+                    print ("Total Harga: ",total)
+                    uang = int(input("\nUang Tunai: Rp "))
+                    print("\n===================================")
+                    print("===============N O T A=============")
+                    print("===================================")
+                    print("Nama      : ", nama)
+                    print("Pembelian : ", porsi1, jenis1)
+                    print("          : ", porsi2, jenis2)
+                    print("          : ", porsi3, jenis3)
+                    print("          : ", porsi4, jenis4)
+                    print("          : ", porsi5, jenis5)
+                    print("Total     : Rp ", total)
+                    print("Uang      : Rp ", uang)
+                    akhir = int(uang-total)
+                    print("Kembalian : Rp ",akhir)
+                    print("===================================")
+                else :
                     print("ERROR! Silakan ulangi")
             elif jawaban == "b" :
                 total = total1 + total2 + total3 + total4
@@ -597,9 +616,9 @@ else :
                 akhir = int(uang-total)
                 print("Kembalian : Rp ",akhir)
                 print("===================================")
-else :
+            else :
                     print ("ERROR! Silakan ulangi")
-            elif jawaban == "b":
+        elif jawaban == "b":
                 total = total1 + total2 + total3
                 print ("Total Harga: ",total)
                 uang = int(input("\nUang Tunai: Rp "))
@@ -615,7 +634,7 @@ else :
                 akhir = int(uang-total)
                 print("Kembalian : Rp ",akhir)
                 print("===================================")   
-            else :
+        else :
                 print("ERROR! Silakan ulangi")
     elif jawaban == "b":
         total = total1 + total2
