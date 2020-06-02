@@ -461,7 +461,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         akhir = int(uang-total)
                         print("Kembalian : Rp ",akhir)
                         print("-Kami tunggu kedatangannya kembali-")
-                        print("===================================")
+                        print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")
                                             
                    elif nomor==102:
                         porsi6 = int(input("Jumlah: "))
@@ -487,7 +487,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         akhir = int(uang-total)
                         print("Kembalian : Rp ",akhir)
                         print("-Kami tunggu kedatangannya kembali-")
-                        print("===================================")
+                        print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")
                         
                    elif nomor == 103:
                         porsi6= int(input("Jumlah: "))
@@ -513,7 +513,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         akhir = int(uang-total)
                         print("Kembalian : Rp ",akhir)
                         print("-Kami tunggu kedatangannya kembali-")
-                        print("===================================")
+                        print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")
                         
                    elif nomor == 104:
                         porsi6 = int(input("Jumlah: "))
@@ -539,7 +539,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         akhir = int(uang-total)
                         print("Kembalian : Rp ",akhir)
                         print("-Kami tunggu kedatangannya kembali-")
-                        print("===================================")   
+                        print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")   
                         
                    elif nomor == 105:
                         porsi6 = int(input("Jumlah: "))
@@ -565,7 +565,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         akhir = int(uang-total)
                         print("Kembalian : Rp ",akhir)
                         print("-Kami tunggu kedatangannya kembali-")
-                        print("===================================")
+                        print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")
                         
                     else :
                         porsi6= int(input("Jumlah: "))
@@ -591,7 +591,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         akhir = int(uang-total)
                         print("Kembalian : Rp ",akhir)
                         print("-Kami tunggu kedatangannya kembali-")
-                        print("===================================")
+                        print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")
 
                 elif jawaban == "b": 
                     total = total1 + total2 + total3 + total4 + total5
@@ -612,7 +612,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                     akhir = int(uang-total)
                     print("Kembalian : Rp ",akhir)
                     print("-Kami tunggu kedatangannya kembali-")
-                    print("===================================")
+                    print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")
                 else :
                     print("ERROR! Silakan ulangi")
             elif jawaban == "b" :
@@ -633,7 +633,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                 akhir = int(uang-total)
                 print("Kembalian : Rp ",akhir)
                 print("-Kami tunggu kedatangannya kembali-")
-                print("===================================")
+                print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")
             else :
                     print ("ERROR! Silakan ulangi")
         elif jawaban == "b":
@@ -653,7 +653,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                 akhir = int(uang-total)
                 print("Kembalian : Rp ",akhir)
                 print("-Kami tunggu kedatangannya kembali-")
-                print("===================================")   
+                print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")   
         else :
                 print("ERROR! Silakan ulangi")
     elif jawaban == "b":
@@ -672,7 +672,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
         akhir = int(uang-total)
         print("Kembalian : Rp ",akhir)
         print("-Kami tunggu kedatangannya kembali-")
-        print("===================================")
+        print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")
     else :
         print ("ERROR! Silakan ulangi")
 elif jawaban == "b" :
@@ -690,7 +690,7 @@ elif jawaban == "b" :
     akhir = int(uang-total)
     print("Kembalian : Rp ",akhir)
     print("-Kami tunggu kedatangannya kembali-")
-    print("===================================")   
+    print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")   
 else :
     print ("ERROR! Silakan ulangi")
     
