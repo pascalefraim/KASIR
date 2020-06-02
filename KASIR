@@ -25,7 +25,9 @@ total6 = 0
 porsi6 = 0
 jenis6 = " "
 
-print ("=============PROGRAM KASIR RESTORAN=============")
+print("=============PROGRAM KASIR RESTORAN=============")
+print("======RESTORAN MURAH MERIAH PAS DI KANTONG======")
+print("================================================")
 nama = input("Nama Konsumen : ")
 print("Nama Konsumen: ", nama)
 menu = [
