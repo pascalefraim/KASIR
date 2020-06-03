@@ -1,1 +1,128 @@
+#Lampiran 1
+#Sumber : http://rofilde.web.id/post/88
 
+menu = [["Nasi Goreng", 1000], ["Nasi Kuning", 13000], ["Nasi Pecel", 5000]]
+
+def menu_makanan():
+    print("#--------------------------------------#")
+    print("# No / Nama Makanan / Harga            #")
+    i = 1
+    for item in menu :
+        print("# " + str(i) + " / " + item [0] + " / " + str(item[1]) + "#")
+        i += 1
+    print("#--------------------------------------#")
+    print("# 0 / Checkout #")
+    print("#--------------------------------------#")
+    return
+
+menu_makanan ()
+jawaban = " "
+catatan_pilihan = []
+while jawaban != []:
+    jawaban = input("Pilih menu makanan")
+    menu_makanan()
+    if jawaban != "0" :
+        catatan_pilihan.append (int(jawaban)-1)
+        
+no = 1 
+print("Pesanan anda: ")
+total = 0 
+for pilihan in catatan_pilihan :
+    print("Makanan ke- " + str(no) + " = " + menu[pilihan][0]+" Harga+" + str (menu[pilihan][1]))
+    no+= 1
+    total = total + menu [pilihan][1]
+    
+print("Total pembayaran " + str (total))
+
+
+
+#Lampiran 2
+#Sumber : 
+
+total1 = 0
+total2 = 0
+totalsemua = 0
+jenis1 = " "
+jenis2 = " "
+
+print("=== Program Kasir Sederhana Motubablog===")
+nama = input("Masukkan nama Konsumen : ")
+print("Nama Konsumen : ", nama)
+print("")
+print("Menu Makanan")
+
+
+def pilihan (i):
+    switcher = {
+            1 : '----Nasi Goreng 12000----',
+            2 : '----Soto 10000----',
+            3 : '----Mie Ayam 9000----',
+            }
+    return switcher.get(i, "Masukkan Pilihan yang Benar! ")
+
+
+print("1. Nasi Goreng")
+print("2. Soto ")
+print("3. Mie Ayam")
+nomor = int(input("Masukkan Pilihan : "))
+menu = pilihan (nomor)
+print(menu)
+porsi1 = int (input("Berapa Porsi: "))
+
+if nomor==1 :
+    total1 = total1 + porsi1*12000
+    print("Hasilnya = ", total1)
+    jenis1 = ("Nasi Gorenng")
+if nomor == 2:
+    total1 = total1 + porsi1*10000
+    print("Hasilnya = ", total1)
+    jenis1 = ("Soto")
+if nomor== 3:
+    total1 = total1 + porsi1*9000
+    print("Hasilnya = ", total1)
+    jenis1 = ("Mie Ayam")
+
+
+def pilihan (i) :
+    switcher = {
+            1 : '---- Es Teh 3000----',
+            2 : '---- Es Jeruk 4000----',
+            3 : '---- Es Kopi 3000 ---- ',
+            }
+    return switcher.get(i, "Masukkan Pilihan yang Benar!")
+print("\nMenu Minuman")
+print("1. Es Teh")
+print("2. Es Jeruk")
+print("3. Es Kopi")
+nomor = int(input("Masukkan Pilihan : "))
+menu = pilihan (nomor)
+print(menu)
+porsi2  = int (input("Berapa Porsi: "))
+
+if nomor==1 :
+    total2 = total2 + porsi2*3000
+    print("Hasilnya = ", total2)
+    jenis2= ("Es Teh")
+if nomor == 2:
+    total2 = total2 + porsi2*10000
+    print("Hasilnya = ", total2)
+    jenis2 = ("Es Jeruk")
+if nomor== 3:
+    total2 = total2 + porsi2*9000
+    print("Hasilnya = ", total2)
+    jenis2 = ("Es Kopi")
+    
+uang = int(input("\nUang Tunai : Rp. "))
+totalsemua = total1 + total2
+print("\n=========================")
+print("=======S T R U K=========")
+print("=========================")
+print("=== Nama     : ", nama)
+print("=== Beli     : ", porsi1, jenis1)
+print("===            ", porsi2, jenis2)
+print("=== Tagihan  : Rp. ", total)
+print("=== Uang     : Rp. ", uang)
+akhir = int(uang-totalsemua)
+print("=== Kembalian: Rp. ", akhir)
+print("=========================")
+print("=========================")
