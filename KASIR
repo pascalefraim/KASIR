@@ -59,12 +59,12 @@ nomor = int(input("Menu yang Dipesan: "))
 menu = pilihan (nomor)
 print(menu)
 
-if nomor==101:
+if nomor==101 :
     porsi1 = int(input("Jumlah: "))
     total1 = total1 + porsi1*10000
     print(total1)
     jenis1 = ("Nasi Goreng")
-elif nomor==102:
+elif nomor==102 :
     porsi1 = int(input("Jumlah: "))
     total1 = total1 + porsi1*6000
     print(total1)
@@ -84,7 +84,7 @@ elif nomor == 105 :
     total1 = total1 + porsi1*3000
     print(total1)
     jenis1 = ("Es Jeruk")
-elif nomor == 106:
+elif nomor == 106 :
     porsi1 = int(input("Jumlah: "))
     total1 = total1 + porsi1*5000
     print(total1)
