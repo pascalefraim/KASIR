@@ -35,7 +35,7 @@ menu = [
        ["102", "Mi Goreng   ", "6000"],
        ["103", "Mi Rebus    ", "7000"],
        ["104", "Es Teh      ", "2000"],
-       ["105", "Es Jeruk    ", "3000'],
+       ["105", "Es Jeruk    ", "3000"],
        ["106", "Es Milo     ", "5000"],
        ]
 print("Daftar Menu : ")
