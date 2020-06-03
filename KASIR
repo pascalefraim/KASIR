@@ -243,7 +243,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
             print (total3)
             jenis3 = ("Es Milo")
         else:
-            salah = int(input("""
+             salah = int(input("""
       MENU TIDAK TERSEDIA!
 SILAKAN MASUKKAN PESANAN ANDA : """))
              if salah==101:
@@ -463,7 +463,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         print("-Kami tunggu kedatangannya kembali-")
                         print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")
                                             
-                   elif nomor==102:
+                    elif nomor==102:
                         porsi6 = int(input("Jumlah: "))
                         total6 = total6 + porsi6*6000
                         print (total6)
@@ -489,7 +489,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         print("-Kami tunggu kedatangannya kembali-")
                         print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")
                         
-                   elif nomor == 103:
+                    elif nomor == 103:
                         porsi6= int(input("Jumlah: "))
                         total6 = total6 + porsi6*7000
                         print (total6)
@@ -515,7 +515,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         print("-Kami tunggu kedatangannya kembali-")
                         print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")
                         
-                   elif nomor == 104:
+                    elif nomor == 104:
                         porsi6 = int(input("Jumlah: "))
                         total6 = total6 + porsi6*2000
                         print (total6)
@@ -541,7 +541,7 @@ SILAKAN MASUKKAN PESANAN ANDA : """))
                         print("-Kami tunggu kedatangannya kembali-")
                         print("🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸")   
                         
-                   elif nomor == 105:
+                    elif nomor == 105:
                         porsi6 = int(input("Jumlah: "))
                         total6 = total6 + porsi6*3000
                         print (total6)
@@ -697,111 +697,3 @@ else :
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-            
-           
- 
-
-
-
-
-
