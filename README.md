@@ -1,6 +1,8 @@
-# KASIR
-UAS PROGRAM KOMPUTER 2020
+# PROGRAM KASIR RESTORAN
+UAS PROGRAM KOMPUTER TEKNIK INDUSTRI UNS 2020
+
 Program ini merupakan program yang digunakan oleh kasir di restoran. Program ini mampu menghitung total tagihan yang harus dibayar pembeli di suatu restoran. 
+
 Terdapat 2 sumber yang menginspirasi kami dalam pembuatan program ini. Namun, tentunya terdapat perbedaan antara program yang kami buat dengan sumber.
 Dari kedua sumber tersebut, titik perbedaannya adalah dalam program yang kami buat, tidak dipisahkan antara list menu makanan dan list menu minuman.
 Hal ini dilakukan agar nota yang dicetak nantinya memiliki tampilan yang lebih rapi. Sebab, apabila list makanan dan list minuman dipisah, apabila terdapat pelanggan yang hanya memesan minuman saja,
