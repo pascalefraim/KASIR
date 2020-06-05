@@ -7,3 +7,4 @@ Hal ini dilakukan agar nota yang dicetak nantinya memiliki tampilan yang lebih r
 maka akan tertera angka 0 atau - pada baris di atasnya. 
 Selain itu, perbedaan lainnya adalah apabila pada sumber pertama, program bisa mengulang beberapa kali (tidak terhitung), tapi pada program kami, maksimal pengulangan hanya sampai 6 kali.
 Hal ini dikarenakan menu yang kami sajikan hanya 6, sehingga pembeli akan membeli maksimal 6 jenis menu saja, tidak mungkin lebih. Akan tetapi untuk jumlah atau porsinya, pembeli bisa membeli berapapun.
+Perbedaan lainnya pada program kami adalah, apabila kasir salah memasukkan kode (kode yang dimasukkan tidak terdaftar), maka akan muncul keterangan bahwa kasir telah salah memasukkan kode. Kemudian program akan otomatis meminta kasir untuk mengisi kembali kode makanan. Hal tersebut merupakan inisiatif dari kami sendiri. 
