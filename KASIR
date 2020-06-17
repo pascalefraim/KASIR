@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 import csv
 
 import os
@@ -26,7 +35,22 @@ def inputdaftarmenu():
             None
         
         writer.writerow(dictmenu)
+
+def cekdaftarmenu():
+    with open (namafile) as filecsv:
+        readCSV = csv.reader (filecsv,delimiter = ',')
+        line_count = 0
     
+        for row in readCSV:
+            if line_count == 0:
+                print (f"Nama Kolom: \n{row}")
+                line_count += 1
+        
+            else:
+                line_count += 1
+                print (row)
+                jmldata = int(line_count - 1)
+        print ("Jumlah Daftar Menu: ", jmldata)         
     
     
     
