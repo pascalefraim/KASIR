@@ -52,5 +52,35 @@ def cekdaftarmenu():
                 jmldata = int(line_count - 1)
         print ("Jumlah Daftar Menu: ", jmldata)         
     
-    
+   def programkasir():
+    with open(namafile, newline='') as filecsv:
+        reader = csv.reader(filecsv)
+        datamenu = list(reader)
+
+    cekdaftarmenu()
+    totalharga = 0
+    listjmlpesan= []
+    print ("")
+    print ("Masukkan KODE berikut pada Kode Makanan untuk:")
+    print ("Input (1) untuk TOTAL PEMBAYARAN")
+    print ("Input (2) untuk Melayani pembeli baru/Keluar dari Program Kasir")
+    print ("")
+    pilihanmenu = input("Kode makanan dipesan: ")
+    while pilihanmenu != ("2"):
+        match = 0
+        for i in datamenu:
+            if pilihanmenu == i[0]:
+                match += 1
+                try:
+                    jml_pesan = int(input("Jumlah dipesan: "))
+                except ValueError:
+                    print ("Input salah. Masukkan jumlah pesanan")
+                    jml_pesan = int(input("Jumlah dipesan: "))
+                hargamenu = int(i[2])*jml_pesan
+                totalharga += hargamenu
+                print (i[1],"\t Rp",hargamenu)
+                entry = [i[1], jml_pesan,hargamenu]
+                
+                listjmlpesan.append(entry)
+                print (listjmlpesan) 
     
