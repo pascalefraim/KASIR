@@ -83,4 +83,20 @@ def cekdaftarmenu():
                 
                 listjmlpesan.append(entry)
                 print (listjmlpesan) 
-    
+                    
+        if pilihanmenu == "1":
+            match += 1
+            print ("Total Pembelian: Rp ", totalharga)
+            uangbayar = int(input("Masukkan uang dari pembeli: Rp "))
+            uangkembalian = uangbayar - totalharga
+            if uangbayar < totalharga:
+                print ("UANG TIDAK CUKUP")
+                
+            else:
+                uangkembalian = uangbayar - totalharga
+                print ("Uang kembalian: Rp ", uangkembalian)
+                print ("")
+            print("\n===================================")
+            print("===============N O T A=============")
+            print("===================================")
+            print("Pesanan :".format(len(listjmlpesan)))
