@@ -100,3 +100,24 @@ def cekdaftarmenu():
             print("===============N O T A=============")
             print("===================================")
             print("Pesanan :".format(len(listjmlpesan)))
+            
+            for pesanan in listjmlpesan:
+                print (pesanan)
+            print("Total     : Rp ", totalharga)
+            print("Uang      : Rp ", uangbayar)
+            print("Kembalian : Rp ",uangkembalian)
+            print("====== Selamat Datang Kembali======")
+            print("===================================")   
+        if match == ("a"):
+            print ("Input salah, ulangi input")
+        pilihanmenu = input("Kode makanan dipesan: ")
+    
+    print ("Melayani pembeli baru? ")
+    print ("Klik (1) YA")
+    print ("Klik (2) TIDAK")
+    ulangkasir = input("> ")
+    if ulangkasir == ("1"):
+        programkasir()
+        
+    elif ulangkasir == ("2"):
+        None
