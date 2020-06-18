@@ -121,3 +121,55 @@ def cekdaftarmenu():
         
     elif ulangkasir == ("2"):
         None
+
+while True:
+    print("================================================")
+    print("=============PROGRAM KASIR RESTORAN=============")
+    print("======RESTORAN MURAH MERIAH PAS DI KANTONG======")
+    print("================================================")
+    print("======SILAKAN PILIH SEBELUM MASUK PROGRAM=======")
+    print("")
+    print("           Klik (1) Program Kasir               ")
+    print("           Klik (2) Menambah Menu               ")
+    print("           Klik (3) Tampilkan Menu              ")
+    print("           Klik (4) Keluar Program              ")
+    mulai = input("> ")
+    if mulai == ("1"):
+        print("================================================")
+        print("=============PROGRAM KASIR RESTORAN=============")
+        print("======RESTORAN MURAH MERIAH PAS DI KANTONG======")
+        print("================================================")
+        print("                  PROGRAM KASIR                 ")
+        print("")
+        programkasir()
+          
+    elif mulai == ("2"):
+        print("================================================")
+        print("=============PROGRAM KASIR RESTORAN=============")
+        print("======RESTORAN MURAH MERIAH PAS DI KANTONG======")
+        print("================================================")
+        print("              MENAMBAH DAFTAR MENU              ")                      
+        print("")
+        inputdaftarmenu()
+        
+    elif mulai == ("3"):
+        print("================================================")
+        print("=============PROGRAM KASIR RESTORAN=============")
+        print("======RESTORAN MURAH MERIAH PAS DI KANTONG======")
+        print("================================================")
+        print("            MENAMPILKAN DAFTAR MENU             ")
+        print("")
+        cekdaftarmenu()
+        
+    elif mulai == ("4"):
+        print ("")
+        print ("PROGRAM TERHENTI!")
+        print ("")
+        break
+        
+    else:
+        print ("")
+        print ("Input SALAH!")
+        print ("PROGRAM TERHENTI!")
+        print ("")
+        break
