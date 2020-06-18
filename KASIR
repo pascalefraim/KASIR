@@ -52,7 +52,7 @@ def cekdaftarmenu():
                 jmldata = int(line_count - 1)
         print ("Jumlah Daftar Menu: ", jmldata)         
     
-   def programkasir():
+def programkasir():
     with open(namafile, newline='') as filecsv:
         reader = csv.reader(filecsv)
         datamenu = list(reader)
